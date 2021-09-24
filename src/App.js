@@ -1,13 +1,21 @@
-import { Fragment } from 'react';
+import { Fragment , useEffect , useState } from 'react';
 import Typed from 'react-typed';
 
 
-function App() {
+const App = () => {
+
+  const [isActive, setActive] = useState("false");
+
+  const handleToggle = () => {
+    document.body.classList.toggle('mobile-nav-active');
+    setActive(!isActive);
+  };
+
   return (
 
   <Fragment>
 
-    <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <i onClick={handleToggle} className={isActive ? "bi-list bi mobile-nav-toggle d-xl-none" : "bi-x bi mobile-nav-toggle d-xl-none"}></i>
 
     <header id="header">
       <div className="d-flex flex-column">

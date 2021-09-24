@@ -32,16 +32,16 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #03394e73;
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  transition: all 0.4s;
+  transition: all 1s;
 }
 .back-to-top i {
   font-size: 28px;
@@ -49,8 +49,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #2eafec;
-  color: #fff;
+  background: #065f83;
+  color: #03394e;
 }
 .back-to-top.active {
   visibility: visible;
@@ -66,9 +66,9 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
   width: 300px;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 1s;
   z-index: 9997;
-  transition: all 0.5s;
+  transition: all 0.8s;
   padding: 0 15px;
   background: #03394e;
   overflow-y: auto;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 #header .profile .social-links a:hover {
   background: #149ddd;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 12px 15px;
   margin-bottom: 8px;
-  transition: 0.3s;
+  transition: 0.5s;
   font-size: 15px;
 }
 .nav-menu a i, .nav-menu a:focus i {
@@ -172,9 +172,9 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9998;
   border: 0;
   font-size: 24px;
-  transition: all 0.4s;
+  transition: all 4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #16536bdc;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -186,8 +186,14 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+/* Below code doesn't work i dont know why ! */
+.bi {
+  transition: all 4s !important;
+}
+
+
 .mobile-nav-active {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .mobile-nav-active #header {
   left: 0;
@@ -376,7 +382,7 @@ section {
   color: #122f57;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.5s;
 }
 .facts .count-box a:hover {
   color: #1f5297;
