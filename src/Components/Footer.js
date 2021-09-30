@@ -6,7 +6,8 @@ const Footer = () => {
         <footer id="footer">
             <div className="container">
                 <div className="copyright">
-                &copy; Copyright reserved
+                &copy; Copyright reserved 
+                <div style={{fontSize:'10px'}}> Raw Template by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
                 </div>
             </div>
         </footer>

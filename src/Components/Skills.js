@@ -9,90 +9,162 @@ const Skills = () => {
             <h2>Skills</h2>
           </div>
   
-          <div className="row skills-content">
+          <div className="row no-gutters">
   
-            <div className="col-lg-6" data-aos="fade-up">
-  
-              <div className="progress">
-                <span className="skill">HTML <i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/html.png" id="skillimg"></img>
+                <p id="skillname"><strong>HTML5</strong></p>
               </div>
-  
-              <div className="progress">
-                <span className="skill">CSS / Sass / Less<i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
-              <div className="progress">
-                <span className="skill">JavaScript / JQuery / ECMA Script<i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">Figma / Photoshop / Adobe XD <i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill"> Bootsrtap / semantic ui / material design <i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
             </div>
   
-            <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-  
-              <div className="progress">
-                <span className="skill">React Js <i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/js.png" id="skillimg"></img>
+                <p id="skillname"><strong>JavaScript</strong></p>
               </div>
-  
-              <div className="progress">
-                <span className="skill">WordPress<i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
-              <div className="progress">
-                <span className="skill">PHP / MySQL / Ajax <i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">Node Js / MongoDB <i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">Git<i className="val">100%</i></span>
-                <div className="progress-bar-wrap">
-                  <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-  
             </div>
+            
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/jquery.jpg" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>JQuery</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/es6.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>ECMA Script</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/nodejs.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>NodeJS</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/react.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>ReactJS</strong></p>
+              </div>
+            </div>
+    
+          </div>
+
+          <div className="row no-gutters">
+  
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/css.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>CSS</strong></p>
+              </div>
+            </div>
+  
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/BootStrap.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>BootStrap</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/SemanticUI.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>SemanticUI</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/less.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>Less</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/sass.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>Sass</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/matui.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>Material UI</strong></p>
+              </div>
+            </div>
+    
+          </div>
+
+          <div className="row no-gutters">
+  
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/wordpress.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>Wordpress</strong></p>
+              </div>
+            </div>
+  
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/php.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>PHP</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/AJAX.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>AJAX</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/figma.png" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>Figma</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/mysql.jpg" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>MySQL</strong></p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+              <div className="count-box">
+                <img alt="" src="assets/img/skills/mongodb.jpg" id="skillimg"></img>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <p id="skillname"><strong>MongoDB</strong></p>
+              </div>
+            </div>
+    
+          </div>
   
           </div>
   
-        </div>
       </section>
     )
 };

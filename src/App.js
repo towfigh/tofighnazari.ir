@@ -8,34 +8,26 @@ import About from './Components/About';
 import Hero from './Components/Hero';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-
 // import Testimoial from './Components/Testimonials'
 // import Facts from './Components/Fact';
 
 const App = props => {
-
   return (
-
   <Fragment>
-    
     <Header/>
     <Hero/>
-  
-    <main id="main">
+      <main id="main">
       <About/>
-      {/* <Facts/>*/}
+      {/* <Facts/> */}
       <Skills/>
       <Resume/>
       <Services/>
-      {/* <Testimoial/>*/}
+      {/* <Testimoial/> */}
       <Contact/>
     </main>
-  
-    
     <Footer/>
   </Fragment>
 
   );
 }
-
 export default withRouter(App);

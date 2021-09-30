@@ -18,11 +18,11 @@ const Header = () => {
   
         <div className="profile">
           <img src="assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle"/>
-          <h1 className="text-light"><a href="index.html">Tofigh Nazari</a></h1>
+          <h1 className="text-light"><a href="/">Tofigh Nazari</a></h1>
           <div className="social-links mt-3 text-center">
-            <a href="https://instagram.com/tofigh.nazari" className="instagram"><i className="bx bxl-instagram"></i></a>
-            <a href="https://linkedin.com/in/tofigh-nazari-6a86831b0" className="linkedin"><i className="bx bxl-linkedin"></i></a>
-            <a href="https://github.com/towfigh" className="github"><i className="bx bxl-github"></i></a>
+            <a href="https://instagram.com/tofigh.nazari" rel="noreferrer" target="_blank" className="instagram"><i className="bx bxl-instagram"></i></a>
+            <a href="https://linkedin.com/in/tofigh-nazari-6a86831b0" rel="noreferrer" target="_blank" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/towfigh" target="_blank" rel="noreferrer" className="github"><i className="bx bxl-github"></i></a>
           </div>
         </div>
   
