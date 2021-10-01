@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9998;
   border: 0;
   font-size: 24px;
-  transition: all 4s;
+  transition: all 2s;
   outline: none !important;
   background-color: #16536bdc;
   color: #fff;
@@ -192,9 +192,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.mobile-nav-active {
-  /* overflow: hidden; */
-}
+/* .mobile-nav-active {
+  overflow: hidden;
+} */
+
 .mobile-nav-active #header {
   left: 0;
 }
@@ -233,13 +234,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 2s;
 }
 #hero p {
-  color: #fff;
+  color: #03394e;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #fff;
+  color: #03394e;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -297,7 +298,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #03394e;
 }
 .section-title h2::after {
   content: "";
@@ -305,7 +306,7 @@ section {
   display: block;
   width: 100px;
   height: 3px;
-  background: #149ddd;
+  background: #03394e;
   bottom: 0;
   left: 0;
 }
@@ -397,12 +398,28 @@ section {
   display: block;
   width: 120px;
   border-radius: 50%;
+  transform: scale(1);
+  transition: all 1s;
+}
+
+#skillimg:hover {
+  transform: scale(1.5);
+  transition: all 0.75s;
+}
+
+#skillimg:focus {
+  transform: scale(1.5);
+  transition: all 1s;
 }
 
 #skillname{
   text-align: center;
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#skillitems{
+  display: block !important;
 }
 .skills .progress {
   height: 60px;
@@ -657,7 +674,7 @@ section {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #057db4;
 }
 .services .title {
   margin-left: 80px;
@@ -976,10 +993,19 @@ section {
 #footer .copyright {
   text-align: center;
 }
+
+.boot{
+  font-size: 9px;
+}
+
+.boot a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
   color: #eaebf0;
 }
 @media (max-width: 1199px) {

@@ -16,7 +16,7 @@ const App = props => {
   <Fragment>
     <Header/>
     <Hero/>
-      <main id="main">
+    <main id="main">
       <About/>
       {/* <Facts/> */}
       <Skills/>
@@ -27,7 +27,6 @@ const App = props => {
     </main>
     <Footer/>
   </Fragment>
-
   );
 }
 export default withRouter(App);

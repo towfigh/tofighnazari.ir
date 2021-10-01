@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div className="copyright">
                 &copy; Copyright reserved 
-                <div style={{fontSize:'10px'}}> Raw Template by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+                <div className="boot"> Raw Template by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
                 </div>
             </div>
         </footer>
