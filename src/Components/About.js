@@ -6,7 +6,7 @@ const About = () => {
         <div className="container">
   
           <div className="section-title">
-            <h2>About</h2>
+            <h2>About Me</h2>
             <p>Hello and welcome to my personal website. My name is Tofigh . I have been programming for almost 4 years . I realized from a young age that I am interested in creation and programming and now ... I am doing something for which I was born ...!</p>
           </div>
   

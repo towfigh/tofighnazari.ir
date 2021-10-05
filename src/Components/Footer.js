@@ -6,7 +6,7 @@ const Footer = () => {
         <footer id="footer">
             <div className="container">
                 <div className="copyright">
-                &copy; Copyright reserved 
+                &copy;2021 Tofigh, All Rights Reserved 
                 <div className="boot"> Raw Template by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
                 </div>
             </div>

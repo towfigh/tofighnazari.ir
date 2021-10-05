@@ -304,7 +304,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 100px;
+  width: 130px;
   height: 3px;
   background: #03394e;
   bottom: 0;
@@ -403,7 +403,7 @@ section {
 }
 
 #skillimg:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
   transition: all 0.75s;
 }
 
