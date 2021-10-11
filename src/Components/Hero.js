@@ -1,22 +1,38 @@
 import Typed from 'react-typed';
+import { useTranslation} from 'react-i18next';
+import { useEffect, useState } from 'react';
+
+
+
 
 const Hero = () => {
 
-    return(
+    const {t,i18n} = useTranslation();
 
-    <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
+    const [isFa, setFa] = useState("false");
+  
+    useEffect(() => {
+      if (i18n.language==="fa") {
+        setFa(true);
+      } else {
+        setFa(false);
+      }    
+    }, [i18n.language]);
+
+
+    const strings=[
+     t('Web Developer...'),
+      t('Programmer...')
+    ];
+
+    return(
+    
+      
+      <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
       <div className="hero-container" data-aos="fade-in">
-        <h1>Tofigh Nazari</h1>
-        <p>I'm <span className="typed" data-typed-items="Developer, Freelancer"><Typed
-            strings={[
-              'Developer...',
-              'Freelancer...',
-              'Programmer...']}
-                typeSpeed={170}
-                backSpeed={60}
-                loop >
-                <span></span>
-            </Typed></span></p>
+        <h1 className={isFa ? 'fa' : ''}>{t('Tofigh Nazari')}</h1>
+        <p>{t("I'm")} <span className="typed"><Typed strings={strings} typeSpeed={170} backSpeed={60} loop>
+            </Typed></span>{t(" ")}</p>
       </div>
     </section>
     )

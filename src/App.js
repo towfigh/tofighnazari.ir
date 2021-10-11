@@ -1,5 +1,7 @@
 import { Fragment} from 'react';
 import { withRouter } from 'react-router-dom';
+import './i18n';
+
 import Contact from './Components/contact';
 import Services from './Components/Services';
 import Resume from './Components/Resume';

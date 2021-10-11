@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const Footer = () => {
+    
+    const {t} = useTranslation();
 
     return(
 
@@ -6,8 +10,8 @@ const Footer = () => {
         <footer id="footer">
             <div className="container">
                 <div className="copyright">
-                &copy;2021 Tofigh, All Rights Reserved 
-                <div className="boot"> Raw Template by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+                &copy;{t("2021 Tofigh, All rights reserved")} 
+                <div className="boot"> {t("Raw Template by")} <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
                 </div>
             </div>
         </footer>

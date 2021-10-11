@@ -1,12 +1,17 @@
+import { useTranslation } from "react-i18next";
+
 const Skills = () => {
 
+  const {t} = useTranslation();
+
+  
     return(
 
         <section id="skills" className="skills section-bg">
         <div className="container">
   
           <div className="section-title">
-            <h2>My Skills</h2>
+            <h2>{t("My Skills")}</h2>
           </div>
   
           <div className="row no-gutters">
