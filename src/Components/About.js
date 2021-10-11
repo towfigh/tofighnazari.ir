@@ -2,7 +2,8 @@ import { useTranslation } from "react-i18next";
 
 const About = () => {
 
-    const {t} = useTranslation();
+    const {t , i18n} = useTranslation();
+
     return(
       
 
@@ -10,7 +11,7 @@ const About = () => {
         <div className="container">
   
           <div className="section-title">
-            <h2>{t('About Me')}</h2>
+            <h2 className={i18n.language==="fa" ? "titleFa" : ''}>{t('About Me')}</h2>
             <p>{t("Hello and welcome to my personal website. My name is Tofigh . I have been programming for almost 4 years . I realized from a young age that I am interested in creation and programming and now ... I am doing something for which I was born ...!")}</p>
           </div>
   
@@ -26,18 +27,18 @@ const About = () => {
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>{t('Birthday')}:</strong> <span>  {t("6 April 1993")}</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>{t("Website")}:</strong> <span>  www.tofighnazari.ir</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>{t("Phone")}:</strong> <span>  {t("+98 936 199 80 54")}</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>{t("City")}:</strong> <span>  {t("İstanbul, Turkey")}</span></li>
+                    <li><i className={i18n.language==="fa" ? "bi bi-chevron-left" : "bi bi-chevron-right"}></i> <strong>{t('Birthday')}:  </strong> <span>  {t("6 April 1993")}</span></li>
+                    <li><i className={i18n.language==="fa" ? "bi bi-chevron-left" : "bi bi-chevron-right"}></i> <strong>{t("Website")}:  </strong> <span>  www.tofighnazari.ir</span></li>
+                    <li><i className={i18n.language==="fa" ? "bi bi-chevron-left" : "bi bi-chevron-right"}></i> <strong>{t("Phone")}:  </strong> <span>  {t("+98 936 199 80 54")}</span></li>
+                    <li><i className={i18n.language==="fa" ? "bi bi-chevron-left" : "bi bi-chevron-right"}></i> <strong>{t("City")}:  </strong> <span>  {t("İstanbul, Turkey")}</span></li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>{t("Age")}:</strong> <span>  28</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>{t("Degree")}:</strong> <span>  {t("Master")}</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>{t("Email")}:</strong> <span>  tofigh.nazari93@gmail.com</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>{t("Freelance")}:</strong> <span>  {t("Available")}</span></li>
+                    <li><i className={i18n.language==="fa" ? "bi bi-chevron-left" : "bi bi-chevron-right"}></i> <strong>{t("Age")}:</strong> <span>  28</span></li>
+                    <li><i className={i18n.language==="fa" ? "bi bi-chevron-left" : "bi bi-chevron-right"}></i> <strong>{t("Degree")}:</strong> <span>  {t("Master")}</span></li>
+                    <li><i className={i18n.language==="fa" ? "bi bi-chevron-left" : "bi bi-chevron-right"}></i> <strong>{t("Email")}:</strong> <span>  tofigh.nazari93@gmail.com</span></li>
+                    <li><i className={i18n.language==="fa" ? "bi bi-chevron-left" : "bi bi-chevron-right"}></i> <strong>{t("Freelance")}:</strong> <span>  {t("Available")}</span></li>
                   </ul>
                 </div>
               </div>

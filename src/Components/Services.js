@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const Services = () => {
 
 
-  const {t} = useTranslation();
+  const {t , i18n} = useTranslation();
 
     return(
 
@@ -11,7 +11,7 @@ const Services = () => {
         <div className="container">
   
           <div className="section-title">
-            <h2>{t("My Services")}</h2>
+            <h2 className={i18n.language==="fa" ? "titleFa" : ''}>{t("My Services")}</h2>
             <p>{t("Depending on your business needs, I will be at your service by providing different services :")}</p>
           </div>
   

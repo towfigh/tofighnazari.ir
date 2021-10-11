@@ -6,7 +6,7 @@ import React from "react";
 
 const Contact = () => {
 
-    const {t} = useTranslation();
+    const {t , i18n} = useTranslation();
 
     return (
 
@@ -14,7 +14,7 @@ const Contact = () => {
            <div className="container">
     
             <div className="section-title">
-                <h2>{t('Contact')}</h2>
+                <h2  className={i18n.language==="fa" ? "titleFa" : ''}>{t('Contact')}</h2>
                 <p>{t("For projects, reviews, suggestions and even greetings! Contact me through the following contact items :")}</p>
             </div>
     

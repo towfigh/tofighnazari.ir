@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 const Resume = () => {
 
-  const {t} = useTranslation();
+  const {t , i18n} = useTranslation();
 
 
     return(
@@ -12,7 +12,7 @@ const Resume = () => {
         <div className="container">
   
           <div className="section-title">
-            <h2>{t("Resume")}</h2>
+            <h2 className={i18n.language==="fa" ? "titleFa" : ''}>{t("Resume")}</h2>
             <p>{t("A brief overview of my education and work history :")}</p>
           </div>
   
@@ -21,7 +21,7 @@ const Resume = () => {
               <h3 className="resume-title">{t("Sumary")}</h3>
               <div className="resume-item pb-0">
                 <h4>{t('Tofigh Nazari')}</h4>
-                <p><em>{t("Born on April 6, 1993, I am the first child in the family and I am interested in creating, designing and coding...")}</em></p>
+                <p><em>{t("Born on April 6, 1993, I am interested in creating applications, designing and coding...")}</em></p>
                 <ul>
                   <li>{t("Pendik/İstanbul , Turkey")}</li>
                   <li>{t("(+98) 936-1998054")}</li>

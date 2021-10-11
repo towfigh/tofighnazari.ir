@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 
 const Skills = () => {
 
-  const {t} = useTranslation();
+  const {t , i18n} = useTranslation();
 
   
     return(
@@ -11,7 +11,7 @@ const Skills = () => {
         <div className="container">
   
           <div className="section-title">
-            <h2>{t("My Skills")}</h2>
+            <h2 className={i18n.language==="fa" ? "titleFa" : ''}>{t("My Skills")}</h2>
           </div>
   
           <div className="row no-gutters">
