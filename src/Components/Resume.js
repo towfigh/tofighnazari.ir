@@ -51,7 +51,7 @@ const Resume = () => {
                 <ul>
                   <li> <a href="https://piano-solo.ir/">Piano-solo</a> : {t("A site for publishing music works and music training packages and teaching related courses and teaching online piano playing.")} </li>
                   <li> <a href="https://polyfa.ir/"> Polyfa</a> : {t("A site for buying and selling and exchanging polymeric materials and books in this field and providing translations of articles for students.")} </li>
-                  <li><a href="https://golwall.ir/">{t("Golwall Company's website")} </a>  (<em>{t("In Progress ..")}</em>)</li>
+                  <li><a href="https://golwall.ir/">{t("Golwall Company's website")} </a>  (<em>{t("In Progress ...")}</em>)</li>
                   <li>{t("Developing my")}  <a href="https://tofighnazari.ir/">{t("personal website !")}</a></li>
                 </ul>
               </div>
@@ -59,7 +59,7 @@ const Resume = () => {
                 <h4>{t("Employment")}</h4>
                 <h5>{t("2019 - Present")}</h5>
                 <ul>
-                  <li>{t("Developing frontend of a SAN Storage with ReactJS")}  (<em>{t("In Progress ..")}</em>)</li>
+                  <li>{t("Developing frontend of a SAN Storage with ReactJS")}  (<em>{t("In Progress ...")}</em>)</li>
                 </ul>
               </div>
             </div>
