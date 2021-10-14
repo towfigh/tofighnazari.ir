@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Below code doesn't work i dont know why ! */
 .bi {
-  transition: all 4s !important;
+  transition: all 1s !important;
 }
 
 
@@ -746,11 +746,25 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #149ddd;
+  background: #096a91;
+  border-radius: 40%;
+  transition: 1s;
+  border: 1px solid #03394e;
 }
+
+.servFa {
+  float: right !important;
+  margin-left: 20px;
+  /* margin-bottom: 100px; */
+}
+
+.servDescFa{
+  margin-right: 80px;
+  font-family: "Open Sans", "BRoyaBold";
+  line-height: 24px;
+  font-size: 15px;
+}
+
 .services .icon i {
   color: #fff;
   font-size: 24px;
@@ -760,7 +774,7 @@ section {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #057db4;
+  color: #03394e;
 }
 .services .title {
   margin-left: 80px;
@@ -768,11 +782,28 @@ section {
   margin-bottom: 15px;
   font-size: 18px;
 }
+.services .faTitle {
+  margin-right: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
 .services .title a {
   color: #343a40;
+  transition: all 0.5s;
+}
+.services .faTitle a {
+  color: #343a40;
+  transition: all 0.5s;
 }
 .services .title a:hover {
   color: #149ddd;
+  transition: all 0.5s;
+}
+.services .faTitle a:hover {
+  color: #149ddd;
+  transition: all 0.5s;
 }
 .services .description {
   font-family: "Open Sans", "BRoyaBold";
