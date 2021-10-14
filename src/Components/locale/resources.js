@@ -98,7 +98,7 @@ const resources = {
       "Quick information about me": "Hakkımda hızlı bilgi",
       "Website": "İnternet sitesi",
       "One of the things that is very important to me is discipline and order in my work and even the tools around me. Irregularities distract me and that is why it is very important for me to do projects in a clean and client-approved manner...": "Benim için çok önemli olan şeylerden biri işimde ve hatta etrafımdaki araçlarda disiplin ve düzendir. Düzensizlikler dikkatimi dağıtıyor ve bu yüzden projeleri temiz ve müşteri onaylı bir şekilde yapmak benim için çok önemli...",
-      "Hello and welcome to my personal website. My name is Tofigh . I have been programming for almost 4 years . I realized from a young age that I am interested in creation and programming and now ... I am doing something for which I was born ...!": "Merhaba ve kişisel web siteme hoş geldiniz. Benim adım Tofight. Yaklaşık 4 yıldır programlama yapıyorum. Küçük yaşlardan itibaren yaratma ve programlama ile ilgilendiğimi fark ettim ve şimdi... Doğduğum bir şeyi yapıyorum...!",
+      "Hello and welcome to my personal website. My name is Tofigh . I have been programming for almost 4 years . I realized from a young age that I am interested in creation and programming and now ... I am doing something for which I was born ...!": "Merhaba ve kişisel web siteme hoş geldiniz. Benim adım Tofigh. Yaklaşık 4 yıldır programlama yapıyorum. Küçük yaşlardan itibaren yaratma ve programlama ile ilgilendiğimi fark ettim ve şimdi... Doğduğum bir şeyi yapıyorum...!",
       "I'm": "Ben ",
       " ": "yim",
       "Web Developer...": "Web Geliştiricisi",
