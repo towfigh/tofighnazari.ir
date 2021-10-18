@@ -31,7 +31,7 @@ const Hero = () => {
       <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
       <div className="hero-container" data-aos="fade-in">
         <h1 className={isFa ? 'fa' : ''}>{t('Tofigh Nazari')}</h1>
-        <p>{t("I'm")} <span className="typed"><Typed strings={strings} typeSpeed={170} backSpeed={60} loop>
+        <p className={isFa ? 'pfa' : ''}>{t("I'm")} <span className="typed"><Typed strings={strings} typeSpeed={170} backSpeed={60} loop>
             </Typed></span>{t(" ")}</p>
       </div>
     </section>

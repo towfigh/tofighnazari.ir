@@ -61,7 +61,7 @@ const resources = {
       "Organize and design the server side and databases of your site": "سمت سرور و پایگاه های داده سایت خود را سازماندهی و طراحی کنید",
       "Designing": "طراحی",
       "Design your web pages according to your taste and the most trendy palettes available": "صفحات وب خود را مطابق سلیقه خود و مدرن ترین پالت های رنگی موجود طراحی کنید",
-      "For projects, reviews, suggestions and even greetings! Contact me through the following contact items :" : "برای پروژه ها ، نظرات ، پیشنهادات از طریق موارد تماس زیر با من تماس بگیرید:",
+      "For projects, reviews, suggestions and even greetings! Contact me through the following contact items :" : "برای ارتباط جهت پروژه ها ، نظرات و پیشنهادات ، با من تماس بگیرید:",
       "Call": "تلفن ",
       "Your Name": "نام ",
       "Your Email": "پست الکترونیک ",

@@ -18,42 +18,42 @@ const Skills = () => {
   
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/html.png" id="skillimg"></img>
+                <img alt="HTML5" src="assets/img/Skills/html.png" id="skillimg"></img>
                 <p id="skillname"><strong>HTML5</strong></p>
               </div>
             </div>
   
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/js.png" id="skillimg"></img>
+                <img alt="JavaScript" src="assets/img/Skills/js.png" id="skillimg"></img>
                 <p id="skillname"><strong>JavaScript</strong></p>
               </div>
             </div>
             
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/jquery.jpg" id="skillimg"></img>
+                <img alt="jquery" src="assets/img/Skills/jquery.jpg" id="skillimg"></img>
                 <p id="skillname"><strong>JQuery</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/es6.png" id="skillimg"></img>
+                <img alt="es6" src="assets/img/Skills/es6.png" id="skillimg"></img>
                 <p id="skillname"><strong>ECMA Script</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/nodejs.png" id="skillimg"></img>
+                <img alt="NodeJS" src="assets/img/Skills/nodejs.png" id="skillimg"></img>
                 <p id="skillname"><strong>NodeJS</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/react.png" id="skillimg"></img>
+                <img alt="ReactJS" src="assets/img/Skills/react.png" id="skillimg"></img>
                 <p id="skillname"><strong>ReactJS</strong></p>
               </div>
             </div>
@@ -64,42 +64,42 @@ const Skills = () => {
   
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/css.png" id="skillimg"></img>
+                <img alt="CSS" src="assets/img/Skills/css.png" id="skillimg"></img>
                 <p id="skillname"><strong>CSS</strong></p>
               </div>
             </div>
   
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/BootStrap.png" id="skillimg"></img>
+                <img alt="BootStrap" src="assets/img/Skills/BootStrap.png" id="skillimg"></img>
                 <p id="skillname"><strong>BootStrap</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/SemanticUI.png" id="skillimg"></img>
+                <img alt="SemanticUI" src="assets/img/Skills/SemanticUI.png" id="skillimg"></img>
                 <p id="skillname"><strong>SemanticUI</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/less.png" id="skillimg"></img>
+                <img alt="Less" src="assets/img/Skills/less.png" id="skillimg"></img>
                 <p id="skillname"><strong>Less</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/sass.png" id="skillimg"></img>
+                <img alt="Sass" src="assets/img/Skills/sass.png" id="skillimg"></img>
                 <p id="skillname"><strong>Sass</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/matui.png" id="skillimg"></img>
+                <img alt="Material" src="assets/img/Skills/matui.png" id="skillimg"></img>
                 <p id="skillname"><strong>Material UI</strong></p>
               </div>
             </div>
@@ -110,42 +110,42 @@ const Skills = () => {
   
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/wordpress.png" id="skillimg"></img>
+                <img alt="Wordpress" src="assets/img/Skills/wordpress.png" id="skillimg"></img>
                 <p id="skillname"><strong>Wordpress</strong></p>
               </div>
             </div>
   
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/php.png" id="skillimg"></img>
+                <img alt="PHP" src="assets/img/Skills/php.png" id="skillimg"></img>
                 <p id="skillname"><strong>PHP</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/AJAX.png" id="skillimg"></img>
+                <img alt="AJAX" src="assets/img/Skills/AJAX.png" id="skillimg"></img>
                 <p id="skillname"><strong>AJAX</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/figma.png" id="skillimg"></img>
+                <img alt="Figma" src="assets/img/Skills/figma.png" id="skillimg"></img>
                 <p id="skillname"><strong>Figma</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/mysql.jpg" id="skillimg"></img>
+                <img alt="MySQL" src="assets/img/Skills/mysql.jpg" id="skillimg"></img>
                 <p id="skillname"><strong>MySQL</strong></p>
               </div>
             </div>
 
             <div id="skillitems" className="col-lg-2 col-md-4 col-sm-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
               <div className="count-box">
-                <img alt="" src="assets/img/skills/mongodb.jpg" id="skillimg"></img>
+                <img alt="MongoDB" src="assets/img/Skills/mongodb.jpg" id="skillimg"></img>
                 <p id="skillname"><strong>MongoDB</strong></p>
               </div>
             </div>
