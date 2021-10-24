@@ -68,6 +68,7 @@ const Header = () => {
               <button onClick={() => changeLanguage('fa')}><img src="assets/img/ir.png" className={langActive==="fa" ? 'langImgActive' : 'langImg'} alt="persian" title="persian"/></button>          
               <button onClick={() => changeLanguage('en_US')}><img src="assets/img/england.png" className={langActive==="en_US" ? 'langImgActive' : 'langImg'} alt="English" title="English"/></button>
             </div>
+
           </div>
         </header>
     </div>

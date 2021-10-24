@@ -20,6 +20,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  direction: ltr;
 }
 
 .body-fa {
@@ -107,6 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
+  text-align: -webkit-center;
   font-family: "Poppins", "BRoyaBold" , sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
@@ -134,14 +136,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header button .langImg {
-  height: 18px;
-  width: 23px;
+  height: 20px;
+  width: 25px;
   border: none;
   margin: 0;
   border-radius: 15%;
   display: inline;
   text-align-last: center;
   -moz-text-align-last: center;
+  text-align: -webkit-center;
   cursor: pointer;
 }
 
@@ -154,26 +157,31 @@ h1, h2, h3, h4, h5, h6 {
   display: inline;
   text-align-last: center;
   -moz-text-align-last: center;
+  text-align: -webkit-center;
   cursor: pointer;
   border: solid 2px black
 }
 
 #header button {
-  height: 0px;
-  width: 26px;
+  height: 25px;
+  width: 25px;
   margin-left: 10px;
   padding: 0;
   background-size: cover;
+  background-color: #03394e ;
   border-radius: 15%;
   text-align-last: center;
   -moz-text-align-last: center;
   border: none;
-
+  /* -webkit-appearance: auto; */
 }
 
 #header .lang {
   text-align-last: center;
   direction: rtl !important;
+  height: 100%;
+  -webkit-appearance: auto;
+  text-align: -webkit-center;
 
 }
 
@@ -218,6 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a i, .nav-menu a:focus i {
   font-size: 25px;
+  -webkit-text-size-adjust: 20px;
   padding-right: 8px;
   color: #6f7180;
 }
@@ -963,6 +972,7 @@ section {
   margin-bottom: 20px;
   font-size: 14px;
   color: #173b6c;
+  direction: ltr !important;
 }
 .contact .info .email p {
   padding-top: 5px;
@@ -992,7 +1002,7 @@ section {
   background: #149ddd;
   color: #fff;
 }
-.contact .php-email-form {
+/* .contact .php-email-form {
   width: 100%;
   padding: 30px;
   background: #fff;
@@ -1072,7 +1082,8 @@ section {
 }
 .contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
-}
+} */
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1171,5 +1182,5 @@ section {
 }
 
 .img-fluid{
-  border-radius: 40%;
+  border-radius: 45%;
 }
