@@ -113,7 +113,8 @@ h1, h2, h3, h4, h5, h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   text-align: -webkit-center;
-  font-family: "Poppins", "BRoyaBold" , "bahnschrift";
+  font-family: "BRoyaBold" , "bahnschrift";
+  letter-spacing: 1px;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
@@ -134,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #03394ea6;
   color: #fff;
   text-decoration: none;
 }
@@ -155,7 +156,6 @@ h1, h2, h3, h4, h5, h6 {
 #header button .langImgActive {
   height: 20px;
   width: 25px;
-  border: none;
   margin: 0;
   border-radius: 15%;
   display: inline;
@@ -163,10 +163,11 @@ h1, h2, h3, h4, h5, h6 {
   -moz-text-align-last: center;
   text-align: -webkit-center;
   cursor: pointer;
-  border: solid 2px black
+  /* border: solid 1px black; */
+  box-shadow:0 0 6px 2px black;
 }
 
-#header button {
+#header .btn-lang {
   height: 25px;
   width: 25px;
   margin-left: 10px;
@@ -214,37 +215,46 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   list-style: none;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
-.nav-menu > ul > li {
+.nav-menu .btn-nav {
+  display: block;
+  background: none;
+  border: none;
+}
+.nav-menu > .btn-nav > ul > li {
   position: relative;
   white-space: nowrap;
 }
-.nav-menu a, .nav-menu a:focus {
+.nav-menu .btn-nav a, .nav-menu .btn-nav a:focus {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: #d5d7e4;
   padding: 9px 15px;
   margin-bottom: 5px;
   transition: 0.5s;
   font-size: 13px;
 }
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu .btn-nav a i, .nav-menu .btn-nav a:focus i {
   font-size: 25px;
   -webkit-text-size-adjust: 20px;
   padding-right: 8px;
   color: #6f7180;
+  transition: all 0.5s;
 }
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+.nav-menu .btn-nav a:hover, .nav-menu .btn-nav .active, .nav-menu .btn-nav .active:focus, .nav-menu .btn-nav li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color:#fff;
 }
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+.nav-menu .btn-nav a:hover i, .nav-menu .btn-nav .active i, .nav-menu .btn-nav .active:focus i, .nav-menu .btn-nav li:hover > a i {
   color: #fff;
+  transform: scaleX(1.1);
+  letter-spacing: 1px;
 }
 
-.nav-menu ul li a span {
-  margin-right: 10px;
+.nav-menu .btn-nav li a span {
+  margin-right: 7px;
+  margin-left: 7px;
 }
 
 /* Mobile Navigation */
@@ -316,10 +326,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #03394e;
   transition: all 2s;
+  font-family: "bahnschrift" , "BYekan";
 }
 
 #hero .herofa {
-  
   position: relative;
   z-index: 2;
   min-width: 500px;
@@ -337,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .pfa {
-  font-size: 26px;
+  font-size: 22px;
     margin: 51px 193px -8px -10px;
 }
 
@@ -381,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero p {
     font-size: 16px;
-    margin: 25px 0 0px 277px;
+    margin: 25px 0 0px 265px;
   }
   #hero .fa {
     margin: -93px 211px 25px 44px;
@@ -392,8 +402,8 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 2s;
   }
   #hero .pfa {
-    font-size: 16px;
-    margin: 20px 208px 78px 80px;
+    font-size: 15px;
+    margin: 19px 207px 73px 70px;
   }
   .nav-menu a, .nav-menu a:focus {
     font-size: 15px;
@@ -414,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -973,7 +983,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #03394e;
   float: left;
   width: 44px;
   height: 44px;
@@ -1018,11 +1028,11 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #03394e;
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #03394e;
   color: #fff;
 }
 .contact .infoFa h4 {
@@ -1034,7 +1044,7 @@ section {
 }
 .contact .infoFa i {
   font-size: 20px;
-  color: #149ddd;
+  color: #03394e;
   float: right;
   width: 44px;
   height: 44px;
@@ -1049,13 +1059,13 @@ section {
   padding: 0 60px 10px 0;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #03394e;
 }
 .contact .infoFa .email p {
   padding-top: 5px;
 }
 .contact .infoFa .email:hover i, .contact .infoFa .address:hover i, .contact .infoFa .phone:hover i {
-  background: #149ddd;
+  background: #03394e;
   color: #fff;
 }
 .contact .infoFa .social-links a:hover {

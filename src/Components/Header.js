@@ -29,12 +29,23 @@ const Header = () => {
     useEffect(() => {
       if (i18n.language==="fa") {
         setLangActive("fa");
+        document.body.classList.toggle('mobile-nav-active');
+        setActive("false");
       } else if (i18n.language==="tr") {
         setLangActive("tr");
+        document.body.classList.toggle('mobile-nav-active');
+        setActive("false");
       } else {
         setLangActive("en_US");
+        setActive("false");
+        document.body.classList.remove('mobile-nav-active');
       }   
     }, [i18n.language]);
+
+    const closemenu = () => {
+      document.body.classList.remove('mobile-nav-active');
+      setActive(!isActive);
+    }
 
     return(
         <div>
@@ -55,18 +66,18 @@ const Header = () => {
 
             <nav id="navbar" className="nav-menu navbar">
               <ul>
-                <li><a href="#hero" className="nav-link scrollto"><i className="bx bx-home"></i> <span>{t('Home')}</span></a></li>
-                <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>{t('About Me')}</span></a></li>
-                <li><a href="#skills" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>{t('My Skills')}</span></a></li>
-                <li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>{t('Resume')}</span></a></li>
-                <li><a href="#services" className="nav-link scrollto"><i className="bx bx-server"></i> <span>{t('My Services')}</span></a></li>
-                <li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>{t('Contact')}</span></a></li>
+                <button className="btn-nav" onClick={() => closemenu()}><li><a href="#hero" className="nav-link scrollto"><i className="bx bx-home"></i> <span>{t('Home')}</span></a></li></button>
+                <button className="btn-nav" onClick={() => closemenu()}><li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>{t('About Me')}</span></a></li></button>
+                <button className="btn-nav" onClick={() => closemenu()}><li><a href="#skills" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>{t('My Skills')}</span></a></li></button>
+                <button className="btn-nav" onClick={() => closemenu()}><li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>{t('Resume')}</span></a></li></button>
+                <button className="btn-nav" onClick={() => closemenu()}><li><a href="#services" className="nav-link scrollto"><i className="bx bx-server"></i> <span>{t('My Services')}</span></a></li></button>
+                <button className="btn-nav" onClick={() => closemenu()}><li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>{t('Contact')}</span></a></li></button>
               </ul>
             </nav>
             <div className="lang">
-              <button onClick={() => changeLanguage('tr')}><img src="assets/img/turkey.png" className={langActive==="tr" ? 'langImgActive' : 'langImg'} alt="Turkce" title="Türkçe"/></button>          
-              <button onClick={() => changeLanguage('fa')}><img src="assets/img/ir.png" className={langActive==="fa" ? 'langImgActive' : 'langImg'} alt="persian" title="persian"/></button>          
-              <button onClick={() => changeLanguage('en_US')}><img src="assets/img/england.png" className={langActive==="en_US" ? 'langImgActive' : 'langImg'} alt="English" title="English"/></button>
+              <button className="btn-lang" onClick={() => changeLanguage('tr')}><img src="assets/img/turkey.png" className={langActive==="tr" ? 'langImgActive' : 'langImg'} alt="Turkce" title="Türkçe"/></button>          
+              <button className="btn-lang" onClick={() => changeLanguage('fa')}><img src="assets/img/ir.png" className={langActive==="fa" ? 'langImgActive' : 'langImg'} alt="persian" title="persian"/></button>          
+              <button className="btn-lang" onClick={() => changeLanguage('en_US')}><img src="assets/img/england.png" className={langActive==="en_US" ? 'langImgActive' : 'langImg'} alt="English" title="English"/></button>
             </div>
 
           </div>
