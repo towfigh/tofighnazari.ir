@@ -12,7 +12,7 @@ const About = () => {
   
           <div className="section-title">
             <h2 className={i18n.language==="fa" ? "titleFa" : ''}>{t('About Me')}</h2>
-            <p>{t("Hello and welcome to my personal website. My name is Tofigh . I have been programming for almost 4 years . I realized from a young age that I am interested in creation and programming and now ... I am doing something for which I was born ...!")}</p>
+            <p>{t("Hello and welcome to my personal website. My name is Tofigh . I have been programming for almost 4 years . I realized from a young age that I am interested in creation and programming and now ... I am doing tasks which I was born for...!")}</p>
           </div>
   
           <div className="row">
@@ -43,7 +43,7 @@ const About = () => {
                 </div>
               </div>
               <p>
-                {t("One of the things that is very important to me is discipline and order in my work and even the tools around me. Irregularities distract me and that is why it is very important for me to do projects in a clean and client-approved manner...")}
+                {t("A substantial thing for me is to have discipline not only in my work but also in the tools around me. In the other words; doing projects in a clean and client-approved manner is very important for me because irregularities are against my point of view...")}
               </p>
             </div>
           </div>

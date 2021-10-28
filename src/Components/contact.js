@@ -1,12 +1,22 @@
 import { useTranslation } from "react-i18next";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 
 
 const Contact = () => {
 
     const {t , i18n} = useTranslation();
+
+    const [isFa, setFa] = useState("false");
+  
+    useEffect(() => {
+      if (i18n.language==="fa") {
+        setFa(true);
+      } else {
+        setFa(false);
+      }    
+    }, [i18n.language]);
 
     return (
 
@@ -15,13 +25,13 @@ const Contact = () => {
     
             <div className="section-title">
                 <h2  className={i18n.language==="fa" ? "titleFa" : ''}>{t('Contact')}</h2>
-                <p>{t("For projects, reviews, suggestions and even greetings! Contact me through the following contact items :")}</p>
+                <p>{t("For projects, consultation, reviews and suggestions; Contact me through the following items :")}</p>
             </div>
     
             <div className="row" data-aos="fade-in">
     
                 <div className="col-lg-5 d-flex align-items-stretch">
-                    <div className="info">
+                    <div className={isFa ? 'infoFa' : 'info'}>
                         <div className="address">
                         <i className="bi bi-geo-alt"></i>
                         <h4>{t("Location")} :</h4>

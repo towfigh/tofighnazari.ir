@@ -21,8 +21,8 @@ const Hero = () => {
 
 
     const strings=[
-     t('Web Developer...'),
-      t('Programmer...')
+     t('a Web Developer...'),
+      t('a Programmer...')
     ];
 
     return(
