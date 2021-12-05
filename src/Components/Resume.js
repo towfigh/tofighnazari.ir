@@ -60,10 +60,11 @@ const Resume = () => {
                 <h4>{t("Freelancer")}</h4>
                 <h5>{t("2017 - Present")}</h5>
                 <ul>
-                  <li> <a href="https://piano-solo.ir/">Piano-solo</a> : {t("A site for publishing music works and music training packages and teaching related courses and teaching online piano playing.")} </li>
-                  <li> <a href="https://polyfa.ir/"> Polyfa</a> : {t("A site for buying, selling and exchanging polymeric materials, books related to this field and providing translations of articles for students.")} </li>
-                  <li><a href="https://golwall.ir/">{t("Golwall Company's website")} </a>  (<em>{t("In Progress ...")}</em>)</li>
-                  <li>{t("Developing my")}  <a href="https://tofighnazari.ir/">{t("personal website !")}</a></li>
+                  <li> <a target="_blank"  rel="noreferrer" href="https://piano-solo.ir/">Piano-solo</a> : {t("A site for publishing music works and music training packages and teaching related courses and teaching online piano playing.")} </li>
+                  <li> <a target="_blank"  rel="noreferrer" href="https://polyfa.ir/"> Polyfa</a> : {t("A site for buying, selling and exchanging polymeric materials, books related to this field and providing translations of articles for students.")} </li>
+                  <li>{t("Developing")} <a target="_blank"  rel="noreferrer" href="https://sepidehalizadeh.ir/">{t("Ms. Sepideh Alizadeh's personal website")} </a> </li>
+                  <li><a target="_blank"  rel="noreferrer" href="https://golwall.ir/">{t("Golwall Company's website")} </a>  (<em>{t("In Progress ...")}</em>)</li>
+                  <li>{t("Developing")}  <a target="_blank"  rel="noreferrer" href="https://tofighnazari.ir/">{t("personal website !")}</a></li>
                 </ul>
               </div>
               <div className={isFa ? 'resumeFa' : 'resume-item'}>
