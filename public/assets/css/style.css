@@ -12,10 +12,12 @@
   font-family: BYekan;
   src: url('../fonts/BYekan.ttf');
 }
+
 @font-face {
   font-family: BRoyaBold;
   src: url('../fonts/BRoyaBd.ttf');
 }
+
 @font-face {
   font-family: bahnschrift;
   src: url('../fonts/bahnschrift.ttf');
@@ -43,8 +45,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", "BYekan" , "Raleway";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", "BYekan", "Raleway";
 }
 
 /*--------------------------------------------------------------
@@ -63,15 +70,18 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: all 1s;
 }
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
   line-height: 0;
 }
+
 .back-to-top:hover {
   background: #065f83;
   color: #03394e;
 }
+
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
@@ -81,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  
+
   position: fixed;
   top: 0;
   left: 0;
@@ -105,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100px;
   border: 8px solid #16536b;
 }
+
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
@@ -113,13 +124,16 @@ h1, h2, h3, h4, h5, h6 {
   -moz-text-align-last: center;
   text-align-last: center;
   text-align: -webkit-center;
-  font-family: "BRoyaBold" , "bahnschrift";
+  font-family: "BRoyaBold", "bahnschrift";
   letter-spacing: 1px;
 }
-#header .profile h1 a, #header .profile h1 a:hover {
+
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
+
 #header .profile .social-links a {
   font-size: 20px;
   display: inline-block;
@@ -134,6 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 36px;
   transition: 0.5s;
 }
+
 #header .profile .social-links a:hover {
   background: #03394ea6;
   color: #fff;
@@ -164,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: -webkit-center;
   cursor: pointer;
   /* border: solid 1px black; */
-  box-shadow:0 0 6px 2px black;
+  box-shadow: 0 0 6px 2px black;
 }
 
 #header .btn-lang {
@@ -173,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 10px;
   padding: 0;
   background-size: cover;
-  background-color: #03394e ;
+  background-color: #03394e;
   border-radius: 15%;
   text-align-last: center;
   -moz-text-align-last: center;
@@ -186,6 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   direction: rtl !important;
   height: 100%;
   -webkit-appearance: auto;
+  appearance: auto;
   text-align: -webkit-center;
 
 }
@@ -203,6 +219,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
   }
 }
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -210,6 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu {
   padding: 5px 0 0 0;
 }
+
 .nav-menu * {
   margin: 0;
   padding: 0;
@@ -217,16 +235,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   letter-spacing: 0.5px;
 }
+
 .nav-menu .btn-nav {
   display: block;
   background: none;
   border: none;
 }
-.nav-menu > .btn-nav > ul > li {
+
+.nav-menu>.btn-nav>ul>li {
   position: relative;
   white-space: nowrap;
 }
-.nav-menu .btn-nav a, .nav-menu .btn-nav a:focus {
+
+.nav-menu .btn-nav a,
+.nav-menu .btn-nav a:focus {
   display: flex;
   align-items: center;
   color: #d5d7e4;
@@ -235,18 +257,28 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   font-size: 13px;
 }
-.nav-menu .btn-nav a i, .nav-menu .btn-nav a:focus i {
+
+.nav-menu .btn-nav a i,
+.nav-menu .btn-nav a:focus i {
   font-size: 25px;
   -webkit-text-size-adjust: 20px;
   padding-right: 8px;
   color: #6f7180;
   transition: all 0.5s;
 }
-.nav-menu .btn-nav a:hover, .nav-menu .btn-nav .active, .nav-menu .btn-nav .active:focus, .nav-menu .btn-nav li:hover > a {
+
+.nav-menu .btn-nav a:hover,
+.nav-menu .btn-nav .active,
+.nav-menu .btn-nav .active:focus,
+.nav-menu .btn-nav li:hover>a {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
-.nav-menu .btn-nav a:hover i, .nav-menu .btn-nav .active i, .nav-menu .btn-nav .active:focus i, .nav-menu .btn-nav li:hover > a i {
+
+.nav-menu .btn-nav a:hover i,
+.nav-menu .btn-nav .active i,
+.nav-menu .btn-nav .active:focus i,
+.nav-menu .btn-nav li:hover>a i {
   color: #fff;
   transform: scaleX(1.1);
   letter-spacing: 1px;
@@ -302,8 +334,9 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/2.png") top center;
   background-size: cover;
   color: #03394e;
-  
+
 }
+
 #hero:before {
   content: "";
   /* background: rgba(5, 13, 24, 0.3); */
@@ -314,11 +347,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 1;
 }
+
 #hero .hero-container {
   position: relative;
   z-index: 2;
   min-width: 500px;
 }
+
 #hero h1 {
   margin: -34vh 34vh 7vh 1vh;
   font-size: 20px;
@@ -326,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #03394e;
   transition: all 2s;
-  font-family: "bahnschrift" , "BYekan";
+  font-family: "bahnschrift", "BYekan";
 }
 
 #hero .herofa {
@@ -348,27 +383,31 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .pfa {
   font-size: 22px;
-    margin: 51px 193px -8px -10px;
+  margin: 51px 193px -8px -10px;
 }
 
 #hero p {
   color: #03394e;
   margin-bottom: 50px;
   font-size: 20px;
-  font-family: "Poppins", "BYekan" , "bahnschrift";
+  font-family: "Poppins", "BYekan", "bahnschrift";
 }
+
 #hero p span {
   color: #03394e;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+
 @media screen and (min-width: 900px) {
   article {
     padding: 1rem 3rem;
   }
 }
+
 @media screen and (min-width: 768px) {
+
   /* #hero h1 {
     font-size: 40px;
     line-height: 36px;
@@ -377,6 +416,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1rem 3rem;
   }
 }
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 30px;
@@ -384,15 +424,18 @@ h1, h2, h3, h4, h5, h6 {
     margin: -13vh 51vh 3vh 34vh;
     width: max-content;
   }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
+
   #hero p {
     font-size: 16px;
     margin: 25px 0 0px 265px;
   }
+
   #hero .fa {
     margin: -93px 211px 25px 44px;
     font-size: 40px;
@@ -401,17 +444,21 @@ h1, h2, h3, h4, h5, h6 {
     color: #03394e;
     transition: all 2s;
   }
+
   #hero .pfa {
     font-size: 15px;
     margin: 19px 207px 73px 70px;
   }
-  .nav-menu a, .nav-menu a:focus {
+
+  .nav-menu a,
+  .nav-menu a:focus {
     font-size: 15px;
   }
+
   #hero {
     height: 56vh;
   }
-  
+
 }
 
 @media (min-width: 1225px) {
@@ -435,6 +482,7 @@ section {
 .section-title {
   padding-bottom: 30px;
 }
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -443,6 +491,7 @@ section {
   position: relative;
   color: #03394e;
 }
+
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -453,9 +502,11 @@ section {
   bottom: 0;
   left: 0;
 }
+
 .titleFa::after {
-  right:0
+  right: 0
 }
+
 .section-title p {
   margin-bottom: 0;
 }
@@ -468,24 +519,29 @@ section {
   font-size: 26px;
   color: #173b6c;
 }
+
 .about .content ul {
   list-style: none;
   padding: 0;
 }
+
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
+
 .about .content ul strong {
   margin: 5px;
 }
+
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
 }
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -496,10 +552,12 @@ section {
 .facts {
   padding-bottom: 30px;
 }
+
 .facts .count-box {
   padding: 30px;
   width: 100%;
 }
+
 .facts .count-box i {
   display: block;
   font-size: 44px;
@@ -507,6 +565,7 @@ section {
   /* float: left; */
   line-height: 0;
 }
+
 .facts .count-box span {
   font-size: 48px;
   line-height: 40px;
@@ -515,22 +574,25 @@ section {
   color: #050d18;
   margin-left: 60px;
 }
+
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", "BYekan" , "bahnschrift";
+  font-family: "Raleway", "BYekan", "bahnschrift";
   font-size: 14px;
   color: #122f57;
 }
+
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Poppins", "BYekan" , "bahnschrift";
+  font-family: "Poppins", "BYekan", "bahnschrift";
   transition: ease-in-out 0.5s;
 }
+
 .facts .count-box a:hover {
   color: #1f5297;
 }
@@ -542,54 +604,59 @@ section {
 #skillimg {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 110px;
   border-radius: 50%;
   transform: scale(1);
-  transition: all 1s;
+  transition: all 0.75s;
 }
 
 #skillimg:hover {
-  transform: scale(1.3);
+  transform: scale(1.15);
   transition: all 0.75s;
 }
 
 #skillimg:focus {
-  transform: scale(1.5);
-  transition: all 1s;
+  transform: scale(1.15);
+  transition: all 0.75s;
 }
 
-#skillname{
+#skillname {
   text-align: center;
   margin: auto;
   font-family: Arial, Helvetica, "bahnschrift";
 }
 
-#skillitems{
+#skillitems {
   display: block !important;
 }
+
 .skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
+
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
   /* text-transform: uppercase; */
   display: block;
   font-weight: 600;
-  font-family: "Poppins", "BYekan" , "bahnschrift";
+  font-family: "Poppins", "BYekan", "bahnschrift";
   color: #050d18;
 }
+
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
+
 .skills .progress-bar-wrap {
   background: #dce8f8;
   height: 10px;
 }
+
 .skills .progress-bar {
   width: 700px;
   height: 10px;
@@ -607,21 +674,24 @@ section {
   margin-bottom: 20px;
   color: #050d18;
 }
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
 }
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", "BYekan" , "bahnschrift";
+  font-family: "Poppins", "BYekan", "bahnschrift";
   color: #050d18;
   margin-bottom: 10px;
 }
+
 .resume .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
@@ -630,15 +700,19 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
+
 .resume .resume-item ul li {
   padding-bottom: 10px;
 }
+
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
+
 .resume .resume-item::before {
   content: "";
   position: absolute;
@@ -650,11 +724,12 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
+
 .resume .resumeFa {
-    padding: 0 20px 20px 20px;
-    margin-top: -2px;
-    border-right: 2px solid #1f5297;
-    position: relative;
+  padding: 0 20px 20px 20px;
+  margin-top: -2px;
+  border-right: 2px solid #1f5297;
+  position: relative;
 }
 
 .resume .resumeFa::before {
@@ -676,6 +751,7 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -685,6 +761,7 @@ section {
   border-radius: 50px;
   padding: 2px 15px;
 }
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
@@ -697,18 +774,23 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
+
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
+
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
@@ -721,6 +803,7 @@ section {
   z-index: 2;
   opacity: 0;
 }
+
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
@@ -732,6 +815,7 @@ section {
   display: flex;
   justify-content: center;
 }
+
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 28px;
@@ -740,12 +824,15 @@ section {
   transition: 0.3s;
   width: 50%;
 }
+
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
-.portfolio .portfolio-wrap .portfolio-links a + a {
+
+.portfolio .portfolio-wrap .portfolio-links a+a {
   border-left: 1px solid #37b3ed;
 }
+
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
@@ -753,6 +840,7 @@ section {
   bottom: 0;
   opacity: 1;
 }
+
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
@@ -764,13 +852,16 @@ section {
 .portfolio-details {
   padding-top: 40px;
 }
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
+
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
+
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -778,13 +869,16 @@ section {
   opacity: 1;
   border: 1px solid #149ddd;
 }
+
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
+
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
 }
+
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
@@ -792,22 +886,27 @@ section {
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
+
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
-.portfolio-details .portfolio-info ul li + li {
+
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
+
 .portfolio-details .portfolio-description {
   padding-top: 30px;
 }
+
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
@@ -818,6 +917,7 @@ section {
 .services .icon-box {
   margin-bottom: 20px;
 }
+
 .services .icon {
   float: left;
   display: flex;
@@ -837,7 +937,7 @@ section {
   /* margin-bottom: 100px; */
 }
 
-.servDescFa{
+.servDescFa {
   margin-right: 80px;
   font-family: "bahnschrift", "BRoyaBold";
   line-height: 24px;
@@ -849,18 +949,22 @@ section {
   font-size: 24px;
   line-height: 0;
 }
+
 .services .icon-box:hover .icon {
   background: #fff;
 }
+
 .services .icon-box:hover .icon i {
   color: #03394e;
 }
+
 .services .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
+
 .services .faTitle {
   margin-right: 80px;
   font-weight: 700;
@@ -872,18 +976,22 @@ section {
   color: #343a40;
   transition: all 0.5s;
 }
+
 .services .faTitle a {
   color: #343a40;
   transition: all 0.5s;
 }
+
 .services .title a:hover {
   color: #149ddd;
   transition: all 0.5s;
 }
+
 .services .faTitle a:hover {
   color: #149ddd;
   transition: all 0.5s;
 }
+
 .services .description {
   font-family: "bahnschrift", "BRoyaBold";
   margin-left: 80px;
@@ -894,45 +1002,55 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
   overflow: hidden;
 }
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
 }
+
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   margin: 0 auto;
 }
+
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
+
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #c3e8fa;
   font-size: 26px;
 }
+
 .testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
+
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
+
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 15px 15px 15px;
@@ -943,6 +1061,7 @@ section {
   border-radius: 6px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+
 .testimonials .testimonial-item p::after {
   content: "";
   width: 0;
@@ -954,10 +1073,12 @@ section {
   bottom: -20px;
   left: calc(50% - 20px);
 }
+
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
+
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -965,6 +1086,7 @@ section {
   opacity: 1;
   border: 1px solid #149ddd;
 }
+
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
@@ -975,12 +1097,14 @@ section {
 .contact {
   padding-bottom: 130px;
 }
+
 .contact .info {
   padding: 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+
 .contact .info i {
   font-size: 20px;
   color: #03394e;
@@ -994,6 +1118,7 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
+
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
@@ -1001,18 +1126,22 @@ section {
   margin-bottom: 5px;
   color: #050d18;
 }
+
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
   color: #173b6c;
 }
+
 .contact .info .email p {
   padding-top: 5px;
 }
+
 .contact .info .social-links {
   padding-left: 60px;
 }
+
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -1027,14 +1156,19 @@ section {
   transition: 0.3s;
   margin-right: 10px;
 }
+
 .contact .info .social-links a:hover {
   background: #03394e;
   color: #fff;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #03394e;
   color: #fff;
 }
+
 .contact .infoFa h4 {
   padding: 0 60px 0 0;
   font-size: 22px;
@@ -1042,6 +1176,7 @@ section {
   margin-bottom: 5px;
   color: #050d18;
 }
+
 .contact .infoFa i {
   font-size: 20px;
   color: #03394e;
@@ -1055,23 +1190,30 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
+
 .contact .infoFa p {
   padding: 0 60px 10px 0;
   margin-bottom: 20px;
   font-size: 14px;
   color: #03394e;
 }
+
 .contact .infoFa .email p {
   padding-top: 5px;
 }
-.contact .infoFa .email:hover i, .contact .infoFa .address:hover i, .contact .infoFa .phone:hover i {
+
+.contact .infoFa .email:hover i,
+.contact .infoFa .address:hover i,
+.contact .infoFa .phone:hover i {
   background: #03394e;
   color: #fff;
 }
+
 .contact .infoFa .social-links a:hover {
   background: #149ddd;
   color: #fff;
 }
+
 /* .contact .php-email-form {
   width: 100%;
   padding: 30px;
@@ -1158,14 +1300,17 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1178,10 +1323,12 @@ section {
   padding: 20px 0;
   background: #f9f9f9;
 }
+
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 300;
 }
+
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -1190,22 +1337,27 @@ section {
   margin: 0;
   font-size: 15px;
 }
-.breadcrumbs ol li + li {
+
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
-.breadcrumbs ol li + li::before {
+
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
   content: "/";
 }
+
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -1225,11 +1377,12 @@ section {
   background: #03394e;
   z-index: 9999;
 }
+
 #footer .copyright {
   text-align: center;
 }
 
-.boot{
+.boot {
   font-size: 9px;
 }
 
@@ -1243,6 +1396,7 @@ section {
   text-align: center;
   color: #eaebf0;
 }
+
 @media (max-width: 1199px) {
   #footer {
     position: static;
@@ -1251,6 +1405,6 @@ section {
   }
 }
 
-.img-fluid{
+.img-fluid {
   border-radius: 45%;
 }
